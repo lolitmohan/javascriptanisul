@@ -263,4 +263,6 @@
             //     else if (digit == 4)
             //         console.log("Four");
             //     else
-            //         console.log("Not a digit");4
+            //         console.log("Not a digit");
+
+            
