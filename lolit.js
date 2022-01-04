@@ -1,31 +1,48 @@
-// var letter = prompt("Enter your letter");
-// letter = letter.toLowerCase();
+ //
+    // var nameOne = "50";
+    // var convert =parseFloat(nameOne);
 
-// if(letter = "a");
-//     else if("vowel");
-// if(letter == "e");
-//     else if("vowel");
-// if (letter == "i");
-//     else if("vowel");
+    // var nameTow = 20;
+    // var add = convert + nameTow;
+    // console.log(add);
 
-// else
-//     ("Consonated");
+//
 
-// FOR LOOP ER BEBOHAR
-// for( var i=2; i<=100; i++){
-//     document.write(" "+i);
-// }
+    // var point1 = 45.8945553;
+    // var point2 = 87.4544455;
+    // var add = point1 + point2;
+    // console.log(add.toFixed(3));
 
-// WHILE LOOP ER BEBOHAR 
-// 1+2+3+....10;
 
-var i = 1;
-var sum = 0;
+//
+    // var number = -15;
+    // console.log(Math.abs(number));
+   
 
-while (i <= 10) {
-    sum = sum+i;
-    i = i + 1;
-}
-document.write(sum);
-document.write(<h1>End</h1>);
+//     
+    // var value = 57.0002;
+    // console.log("Ceil + = " +Math.ceil(value));
+
+//     
+    // var value = 45.999;
+    // console.log("Floor - = "+Math.floor(value));
+
+//     
+    // console.log(Math.random()); // random number generate from 0 to 1;
+
+// 
+    //  console.log(Math.floor(Math.random() * 100) + 1); // random number generate from 0 to 1;
+
+
+//     // Array 
+
+//     var fruits = ["apple", "kola", "orange", "pepe", "alu"];
+//     console.log(fruits.indexOf("orange"));
+//    
+
+
+
+// 1 to 50 all event Number print
+
+
 

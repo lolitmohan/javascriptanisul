@@ -4,13 +4,147 @@
     <meta charset="UTF-8">
     <me ta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>javascript</title>
 </head>
 <body>
     
+    <!-- <a href="#" id="home">Home</a>
+    <ul>
+        <li><a href="#" id="tutorial">Tutorial</a></li>
+        <li><a href="#" id="Bang">Bangladesh</a></li>
+    </ul>
+    <div class="my-dive">
+        <a href="#">Contact</a> 
+    </div>-->
+
+
+    <!-- <button  onclick="myMessage1()">Click Heare1</button>
+    <button  onclick="myMessage2()">Click Heare2</button>
+    <p id="paraid">demo</p>
+    <script>
+        var myVar = document.querySelector("#paraid");
+        function myMessage1(){
+            myVar.innerHTML = "You have clicked on Click Heare1";
+        };
+        function myMessage2(){
+            myVar.innerHTML = "You have clicked on Click Heare2";
+        }; 
+    </script>-->
+
+<!-- ONCLICK MATHOD 
+<button onclick="alert('Hello Bangladesh')">click me</button>
+        <script>
+            function myMessage(){
+                alert("Hello how are you?");
+            }
+        </script>-->
+
+        
+
+<!-- // IIFES = (Immetiately Invokeable Function Expressions)
+        // function disply(message){
+        //     console.log(message);
+        // };
+        // disply("I am Lolit Mohan");
+    
+        // (function display(message){
+        //     console.log(message);
+        // })("Hi Lolit Mohan"); -->
+
+<!-- //DOM = Document Object Model - document object can access and manipulate HTML
+          // .  Element Find / get 
+          // . change
+          // . add / or 
+          // . delete
+
+        // fIND / GET (METHODS)
+          // . Document.GetElementById(id) - Find element by id
+          // . document.GetElementByTagName(TagName) - Find element by TagName
+          // . document.GetElementByClassName(ClassName) - Find Element By ClassName
+          // . document.querySelector(#id)
+          // . document.querySelector(.class)
+          // . document.querySelector(tag)
+
+        // Changing HTML Element.
+            property
+            =======
+            .Element.innerHTML = new HTML content
+            .Element.attribute = new value
+            .Element.style.property = new stule
+
+            Method
+            ======
+            .Element.setAttribute(attribute,value) - change the attribute value of an html element -->
+            <!-- <div class="my-dive" class="body" style="background-color: red;">
+                <h1>Hello</h1>
+                <h1>GoodBye</h1>
+            </div>
+            <script>
+                var heading3 = document.createElement("h1");
+                var tex = document.createTextNode("This is Text");
+                heading3.appendChild(text);
+
+                var myDive = document.getElementsByClassName("my-dive");
+                myDive.appendChild(heading3);
+            </script> -->
+            
+    <!-- slider img  -->
+            <!-- <button onclick="prev">previous</button>
+            <img src="img/A.jpg" alt="Lolit" height="300" width="300">
+            <button onclick="next">Next</button>
+            <script>
+                var photos = ["img/A.jpg", "img/b.jpg", "img/c.jpg"];
+                var imgTag = document.querySelector("img");
+
+                var count = 0;
+
+                function next(){
+                    count++;
+                    if(count>=photos.length){
+                        count=0;
+                        imgTag.src = photos[count];
+                    }else{
+                        imgTag.src= photos[count];
+                    }
+                }
+
+                function prev(){
+
+                }
+            </script> -->
+
+<!-- changing css style dynamically -->
+            <!-- <p id="paraid">This is a paragraph</p>
+            <button onclick="addStyle()" >add style</button>
+            <button>remove style</button>
+            <script>
+                function addStyle(){
+                    var myVar = document.querySelector("#paraid");
+                    myVar.style.color = "red";
+                    myVar.style.fontSize = "3rem";
+                    myVar.style.fontWidth = "bold";
+                    myVar.style.fontStyle = "italic";
+                    
+                }
+            </script> -->
+    
+<!-- addEventListener -->
+            <!-- <button id="btnid">Click</button>
+            <script>
+                var myVar = document.querySelector("#btnid").addEventListener("click", myFunction);
+                function myFunction(){
+                    alert("Elllll");
+                }
+            </script> -->
+            <h1>Lolit</h1>
+            <script>
+                var myVar = document.querySelector("h1").addEventListener("click", function(){
+                    alert("Hello");
+                })
+                myVar
+            </script>
     
 
-    
     <script src="anisul.js"></script>
     <script src="lolit.js"></script>
 </body>
