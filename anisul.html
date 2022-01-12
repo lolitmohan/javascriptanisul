@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <me ta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>javascript</title>
 </head>
 <body>
@@ -71,7 +72,8 @@
             .Element.innerHTML = new HTML content
             .Element.attribute = new value
             .Element.style.property = new stule
-
+// 16. logical operators 
+            
             Method
             ======
             .Element.setAttribute(attribute,value) - change the attribute value of an html element -->
@@ -136,13 +138,183 @@
                     alert("Elllll");
                 }
             </script> -->
-            <h1>Lolit</h1>
+
+
+
+    <!-- //  46. DOM Event | Event Object | onsubmit event -->
+            <!-- <form action="">
+
+                <div>
+                    <label for="name">Name: 
+                        <input type="text" name="name" id="name" required autofocus>
+                    </label>
+                </div>
+                
+
+                <div>
+                    <label for="email">Email: 
+                        <input type="email" name="email" id="email" required size="30">
+                    </label>
+                </div>
+
+                <div>
+                    <label for="password">PassWord
+                        <input type="password" name="password" id="password" required minlength="4" maxlength="8">
+                    </label>
+                </div>
+                <input type="submit" value="Send" id="send">
+            </form>
+
+            <script> -->
+                <!-- //finding the elements
+                // const form = document.querySelector('form');
+                // const name = form.querySelector("div #name");
+                // const email = form.querySelector("div #email");
+                // const password = form.querySelector("dive #password");
+                
+                // form.addEventListener('submit', formHandler);
+                
+                // function formHandler(e){
+                //     e.preventDefault();
+                //     // console.log("submit");
+                //     // console.log("name");
+                //     // console.log("email");
+                //     // console.log("password");
+                //         const userInfo = {
+                //             name: name.value,
+                //             email: email.value,
+                //             password: password.value,
+                //         }
+                //             console.log(userInfo);
+                // }
+            // </script> -->
+
+            <!-- <div>
+                <details>
+                    <summary>Lolit</summary>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore aspernatur doloremque soluta consectetur laboriosam veritatis, illum esse nobis quae iusto.</p>
+    
+                </details>
+            </div>
             <script>
-                var myVar = document.querySelector("h1").addEventListener("click", function(){
-                    alert("Hello");
-                })
-                myVar
-            </script>
+                 const div = document.querySelector("div");
+                 console.log(div);
+            </script> -->
+            
+
+    <!-- <h1>BOM</h1>
+    <div class="location-div">
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+
+        <button id="visit-my-website">visit my website</button>
+    </div> -->
+
+
+    <!-- <button class="save">Save</button>
+    <script>
+        const saveButton = document.querySelector(".save");
+        const message = document.querySelector(".message");
+        saveButton.addEventListener('click', saveUser);
+        function saveUser(){
+            message.textContent = "user registration success";
+        }
+    </script> -->
+
+
+    <!-- <button class="save-btn">Save</button>
+    <p class="message"></p>
+    <script>
+        let saveBtn = document.querySelector('.save-btn')
+        let message = document.querySelector('.message');
+        saveBtn.addEventListener('click', saveUser);
+        function saveUser(){
+            message.textContent = "user registration succesful";
+            setTimeout(() =>{
+                message.textContent = "";
+            }, 3000);
+        }
+    </script> -->
+    
+<!-- <button class="saveBtn">Save</button>
+    <script>
+        saveBtn.addEventListener('click', startClock);
+
+        function startClock(){
+            let date = new Date();
+            let hours = date.getHours();
+            let minutes = date.getMinutes();
+            let seconds = date.getSeconds();
+            let time = hours + ":" + minutes + ":" + seconds;
+            // console.log(time);
+
+
+            message.textContent = time;
+            setInterval(startClock, 1000);
+
+
+        }
+        
+    </script> -->
+
+
+
+
+<!-- <script>
+    try{
+        //code test
+        alert("Hello Lolit ");
+        alert(x);
+        alert("bye Lolit");
+    }catch(err){
+
+        //handle error
+        alert("Inside catch block");
+
+    }finally{
+        alert("bye Lolit");
+    }
+</script> -->
+
+
+
+
+<!-- <input id="inputText" type="text">
+<button class="checkButton">cleck</button>
+<script>
+    document.querySelector("#checkButton");
+    addEventListener("click", function(){
+      let num =  document.querySelector("#inputText").value;
+        try{
+            if(num < 5){
+                throw "input is too low"
+            }else if(num > 10){
+                throw "input is too high"
+            }
+        } catch(error){
+            console.log(error);
+        }
+    })
+</script>  -->
+
+
+
+<canvas id="myCanvas" width="400px" height="300px"></canvas>
+<script>
+    var c = document.getElementById("myCanvas");
+    var ctx = c.getContext("2d");
+    // ctx.strokeStyle = "black";
+    // ctx.strokeRect(12,12,390,230);
+    ctx.fillStyle = "green";
+    ctx.fillRect(10,10,380,280);
+</script>
+
+
+
+
     
 
     <script src="anisul.js"></script>

@@ -18,6 +18,7 @@
 
 
 
+
 // USER INPUT কিভারবে নিতে পারি। (prompt) এর মাধ্মে। অন্ড কতটি carektar রয়েছে।
         // var text = prompt("Enter Your Name : ")
         // document.write("Number of character " + text.length);*/
@@ -74,8 +75,24 @@
 
 //CLASS: 09 Arithmetic and assignment operator
         //Arithmetic operator : +, -, *, /, %(Modulas), **, --, ++(Exponent),
-        //assignment operator : =, +=, -=, *=, /=, %=, **=
-        
+        //assignment operator : =, +=, -=, *=, /=, %=, **=,
+
+// 16. logical operators
+        // var marks = prompt("Enter your Marks: ");
+        // if(marks >= 80 && marks <= 100)
+        // console.log("A+");
+        // else if(marks >= 70 && marks <= 79)
+        //     console.log("A");
+        // else if(marks >= 60 && marks <= 59)
+        //     console.log("A-");
+        // else if (marks >= 50 && marks <= 49)
+        //     console.log("B");
+        // else if(marks >= 40 && marks <= 39)
+        //     console.log("C");
+        // else if(marks >= 33 && marks <= 39)
+        //     console.log("D");
+        // else
+        //     console.log("Fail");
     //
         // var x = 8;
         // x += 5; // x = x+x
@@ -101,6 +118,8 @@
 
         // document.write("Sum1 + sum2 = " + sum + "<br/> <br/>");
         // document.write("Sum1 - sum2 = " + sub);
+
+
 
 //
         // var fastName = prompt("Enter your FastNameber : ");
@@ -160,6 +179,14 @@
             //         console.log(i);
             //     }
             // }
+
+// 10-30 find out even number betwen 
+        // for(var i = 10; i<30; i++){
+        //     if(i%2 !=0 ){
+        //         console.log(i);
+        //     }
+        // }
+
 
 // একটি letter vowel না consonated তা নিরনয় করতে পারি loop এর সাহাযে।
             // var letter = prompt("Enter your letter : ");
@@ -479,13 +506,13 @@
         // console.log(names[5]);
       
     // push = name add korbe.
-        // var names = ["Lolit","Mohan","Purni","Rany","Lolit"];
-        // console.log(names.length);
-        // names.push("Purnima");
-        // names.push("hurnima");
-        // names.push("curnima");
-        // console.log(names.length);
-        // console.log(names[5]);
+        var names = ["Lolit","Mohan","Purni","Rany","Lolit"];
+        console.log(names.length);
+        names.push("Purnima");
+        names.push("hurnima");
+        names.push("curnima");
+        console.log(names.length);
+        console.log(names);
 
     // pop = name Remove korbe.
         // var names = ["Lolit","Mohan","Purni","Rany","Lolit"];
@@ -723,12 +750,107 @@
 
 // ONCLICK METHOD
 
-
-            function doLoop(number1, number2){
-                for(var count = number1; count <= number2; count++)
-                console.log(count);
-            }
-            doLoop(10, 20);
-            doLoop(50,100);
+// DOM Event | Event Object | onchange event
+            
 
         
+// BOM  (Browser Object Model)
+        
+        // // hrf
+        //     console.log(location.href);
+
+        // // protocol
+        // console.log(location.protocol);
+
+        // //hostname
+        // console.log(location.hostname);
+
+        // //port
+        // console.log(location.port);
+
+        // //pathname
+        // console.log(location.pathname);
+
+
+       
+    //  var locationDiv = document.querySelector(".location-div");
+
+    //  var p1 = locationDiv.children[0];
+    //  p1.textContent = location.href;
+
+    //  var p2 = locationDiv.children[1];
+    //  p2.textContent = location.protocol;
+
+    //  var p3 = locationDiv.children[2];
+    //  p3.innerHTML = location.hostname;
+
+    //  let p4 = locationDiv.children[3];
+    //  p4.innerHTML = location.port;
+
+    //  let p5 = locationDiv.children[4];
+    //  p5.innerHTML = location.pathname;
+
+    //  let visit = document.getElementById("visit-my-website");
+    //  visit.addEventListener("click", function(){
+    //      location.assign("https://www.google.com");
+    //  })
+
+
+    //54 class BOM popup, boxes, a;ert, confirm, prompt
+    // console.clear();
+    // alert 
+            // function deleteSomething(){
+            //     let value = confirm("Do you want to deleted");
+            //     if(value){
+            //         console.log("deleted");
+            //     }else{
+            //         console.log("Not deleted");
+            //     }
+            // }
+            // deleteSomething();
+
+
+    //prompt
+            // function welcomeMessage(){
+
+            //     var name = prompt("Enter your Name");
+            //     if(name == null || name == " "){
+            //         text = "no name found"
+            //     }else{
+            //         text = name;
+            //     }
+            //     var h1 = document.createElement("h1")
+            //     var text;
+                
+            //     var textNode = document.createTextNode(text);
+            //     h1.appendChild(textNode);
+            //     document.body.appendChild(h1);
+            // }
+            // welcomeMessage();
+
+
+// BOM 
+            //Timing events methods
+            // set Timeout(), 
+            // set Interval(),
+
+        // set Timeout()
+            // setTimeout(() => {
+            //     console.log("hi lolit")
+            // }, 2000);
+
+            // setTimeout(display, 2000);
+            // function display(){
+            //     console.log('display function');
+            // }
+
+        // set Interval()
+            
+
+        
+
+ 
+
+            
+
+            
